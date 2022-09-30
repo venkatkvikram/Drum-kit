@@ -19,7 +19,7 @@ document.querySelectorAll("button")[i].addEventListener("click", function () {
 }
 
 
-//Detecting Keyboard process
+//Detecting Keyboard press
 document.addEventListener("keypress",function(event){
 
       makeSound(event.key);
